@@ -1,0 +1,187 @@
+ .whole {
+    height : 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+/*
+.books {
+    display: flex;
+    gap: 10px;
+}
+
+.book {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(177, 234, 246);
+}
+
+.delete {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100)
+}
+
+.update {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234)
+}
+*/
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton {
+    border: none;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+
+.books {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.book h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.book span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+}
+
+.delete,
+.update {
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-right: 5px; /* Add this line to create a gap between buttons */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete {
+    background-color: #dd3b3b;
+    color: #fff;
+}
+
+.update {
+    background-color: #2196F3;
+    color: #fff;
+}
+/* Add this to your existing CSS or create a new CSS file */
+
+.add {
+    display: block; /* If needed, adjust this property based on your requirements */
+    margin: 20px auto; /* Center the button both horizontally and vertically */
+}
+
+.add button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block; /* Ensures the button takes up the full width */
+}
+
+
+
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px auto;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.delete:hover {
+    background-color: #ef5050; /* Light red */
+}
+
+.update:hover {
+    background-color: #73a8f7; /* Light blue */
+}
+
+.add button:hover {
+    background-color: #a6e0a6; /* Light green */
+}
+/* Add this to your existing CSS or create a new CSS file */
+
+.add a,
+.update a,
+.delete a {
+    color: white;
+    text-decoration: none;
+}
+
+
